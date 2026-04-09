@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from numpy.random import default_rng as rng
+import streamlit.components.v1 as components
 
 st.title("Hello world!")
 
@@ -174,3 +175,5 @@ particles_js = """<!DOCTYPE html>
 """
 
 st.set_page_config(page_title="heyGirl.net", page_icon="✨", layout="wide")
+
+components.html(particles_js, height=370, scrolling=False)
