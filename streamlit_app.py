@@ -9,7 +9,7 @@ with st.sidebar:
     st.header("About this app")
     st.write("This is my first app.")
 
-st.header("KodingKyla is learning Streamlit!", divider='rainbow')
+st.header("KodingKyla is learning Streamlit!", divider='violet')
 
 col1, col2 = st.columns(2)
 with col1:
@@ -22,12 +22,6 @@ with col2:
     st.write("This is your selected value.")
     st.write(f"You selected: {x}")
 
-st.divider()
-st.header("Random chart", divider='rainbow')
-st.write("This is the chart area for a random number generator.")
-
-df = pd.DataFrame(rng(0).standard_normal((20, 3)), columns=["a", "b", "c"])
-st.area_chart(df)
 
 particles_js = """<!DOCTYPE html>
 <html lang="en">
