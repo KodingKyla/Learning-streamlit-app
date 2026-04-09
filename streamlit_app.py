@@ -22,8 +22,8 @@ with col2:
     st.write(f"You selected: {x}")
 
 st.divider()
-st.header("Chart area", divider='rainbow')
-st.write("This is the chart area.")
+st.header("Random chart", divider='rainbow')
+st.write("This is the chart area for a random number generator.")
 
 df = pd.DataFrame(rng(0).standard_normal((20, 3)), columns=["a", "b", "c"])
 st.area_chart(df)
