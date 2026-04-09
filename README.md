@@ -2,13 +2,14 @@
 ```
 ```
 
-Select you favorite number between 0 and 100 using the slider.
+Select your favourite number between 0 and 100 using the slider.
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://learning-app-app.streamlit.app/)
 
 
+## Learning resources
 
-## Further Reading
-
-This is the resources I used:
+These are some of the resources I used:
 
 #### Demo App from Streamlit
 
